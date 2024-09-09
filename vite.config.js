@@ -5,6 +5,8 @@ export default defineConfig({
     lib: {
       entry: "./src/main.js",
       name: "HelloLib",
+      formats: ["es", "umd"],
+      fileName: (format) => `hello-lib.${format}.js`,
     },
   },
 });
