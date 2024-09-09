@@ -6,12 +6,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/hello-lib.umd.cjs",
-  "module": "./dist/hello-lib.js",
+  "main": "./dist/hello-lib.umd.js",
+  "module": "./dist/hello-lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/hello-lib.js",
-      "require": "./dist/hello-lib.umd.cjs"
+      "import": "./dist/hello-lib.es.js",
+      "require": "./dist/hello-lib.umd.js"
     }
   },
   "scripts": {
