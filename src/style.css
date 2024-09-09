@@ -1,0 +1,30 @@
+.hello-world {
+  font-size: 24px;
+  color: white;
+  background-image: linear-gradient(
+    270deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  background-size: 400% 400%;
+  animation: rainbowBackground 5s ease infinite;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@keyframes rainbowBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HelloLib Example</title>
+  </head>
+  <body>
+    <div id="hello-container"></div>
+    <script type="module">
+      import HelloLib from "./src/main.js";
+
+      const container = document.getElementById("hello-container");
+      HelloLib.init(container);
+    </script>
+  </body>
+</html>

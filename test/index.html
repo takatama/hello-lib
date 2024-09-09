@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test of HelloLib Example</title>
+  </head>
+  <body>
+    <h3>Test</h3>
+    <div id="hello-container"></div>
+    <script src="../dist/hello-lib.umd.cjs"></script>
+    <script>
+      const container = document.getElementById("hello-container");
+      HelloLib.init(container);
+    </script>
+  </body>
+</html>
